@@ -33,18 +33,18 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1D809F;
+  --bs-primary: #3C49BD;
   --bs-secondary: #ecb807;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #BAE6E1;
   --bs-warning: #ecb807;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 29, 128, 159;
+  --bs-primary-rgb: 60, 73, 189;
   --bs-secondary-rgb: 236, 184, 7;
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-info-rgb: 186, 230, 225;
   --bs-warning-rgb: 236, 184, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -11489,7 +11489,8 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-landing.jpg"); */
+  background:url("../assets/img/bg-landing.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11530,7 +11531,6 @@ footer.footer .social-link:hover {
   margin: auto 2rem 2rem;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
-  font-size: 0.8rem;
   text-transform: uppercase;
 }
 .portfolio-item .caption .caption-content p {
@@ -11601,6 +11601,10 @@ img, svg {
 .custom-image{
   transform: scale(2.1);
   object-fit: cover;
+  margin-top: 20px;
+}
+.big-boy{
+  margin-top: 40px;
 }
 .service-icon.rounded-circle {
   overflow: hidden;
@@ -11626,5 +11630,3 @@ img, svg {
   width:50%;
   float:left;
 }
-
-
