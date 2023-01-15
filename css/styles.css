@@ -11,6 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --seafood: #76C4BC;
+  --brownie-tapue: #ADA97F;
+  --mermaids-milk: #BAE6E1;
+  --powder-mist: #3C49BD;
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -7320,7 +7324,7 @@ textarea.form-control-lg {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 10rem !important;
 }
 
 .mt-auto {
@@ -11339,7 +11343,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: var(--seafood);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11444,7 +11448,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: var(--powder-mist);
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11490,7 +11494,7 @@ footer.footer .social-link:hover {
   padding-top: 8rem;
   padding-bottom: 8rem;
   /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-landing.jpg"); */
-  background:url("../assets/img/bg-landing.jpg");
+  background:black;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11586,7 +11590,7 @@ footer.footer .social-link:hover {
 
 img, svg {
     vertical-align: middle;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -11614,7 +11618,7 @@ img, svg {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11629,4 +11633,34 @@ img, svg {
 .portfolio-item .caption-content{
   width:50%;
   float:left;
+}
+.merch-store {
+  position: fixed;
+  right: 75px;
+  top: 15px;
+  line-height: 25px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(52, 58, 64, 0.5);
+  z-index: 999;
+}
+
+.merch-store:hover {
+background-color: #343a40;
+}
+
+.bigger-icons {
+  transform: scale(1.25);
+}
+.social-link-circle i {
+  font-size: 2em !important;
+}
+
+.merch-store.hidden {
+  display: none !important;
 }
